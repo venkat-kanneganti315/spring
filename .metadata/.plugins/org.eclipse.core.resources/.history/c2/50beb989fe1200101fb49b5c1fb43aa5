@@ -1,0 +1,15 @@
+package com.flm.test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class creatingObjectInSpring {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml"); // ✅ Correct
+		
+
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}
